@@ -55,5 +55,18 @@
 //        int almostPi = (int) pi;
 //
 //
+
+
+ //This allows us to define a string with placeholders and then pass values for those placeholders.
+
+//         String name = "codeup";
+  //       System.out.printf("Hello there, %s. Nice to see you.%n", name);
+
+     //    In the example above, the %s will be replaced with the value of the name variable, resulting in an output of:
+
+   //      Hello there, codeup. Nice to see you.
+
+
+
 //    }
 //}
