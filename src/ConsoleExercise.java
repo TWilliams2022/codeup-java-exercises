@@ -68,16 +68,16 @@ public class ConsoleExercise {
 //                Assume that the user will enter valid numeric data for length and width.
 
         System.out.println("Hello, what is the length of the door ?");
-        int length = scanner.nextInt();
+        int length = Integer.parseInt(scanner.nextLine());
 
         System.out.println("Hello, what is the width of the door?");
-        int width = scanner.nextInt();
+
+        int width = Integer.parseInt(scanner.nextLine());
 
         int area = width * length;
         int perimeter = (width * 2) + (length * 2);
 
         System.out.printf("The length of the door is %d. The width is %d. The area of the door is %d, and the perimeter is %d!", length, width, area, perimeter);
-//        System.out.println("Your ");
 
 
 //                Display the area and perimeter of that classroom.
@@ -85,6 +85,7 @@ public class ConsoleExercise {
 //                The area of a rectangle is equal to the length times the width,
 //                and the perimeter of a rectangle is equal to 2 times the length plus 2 times the width.
 //
+
 
 
     }
