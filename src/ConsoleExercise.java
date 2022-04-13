@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ConsoleExercise {
-    public static <string> void main(String[] args) {
+    public static void main(String[] args) {
 
 
 //    Now that we have imported it, let's take a look at an example of using the Scanner class:
