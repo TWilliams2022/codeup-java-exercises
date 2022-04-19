@@ -1,12 +1,12 @@
 package shapes;
 
-public class circle {
+public class Circle {
 
 
     private double radius;
 
 
-    public circle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
 
     }
@@ -19,3 +19,8 @@ public class circle {
         return (2 * Math.PI) * (this.radius * this.radius);
     }
 }
+//
+//- Encapsulation: Grouping
+//        -  Inheritance: Sharing - ReSharing
+//        -  Polymorphism: Redefining
+//        -  Abstraction: Hiding

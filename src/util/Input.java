@@ -41,7 +41,7 @@ public class Input {
         }
     }
 
-    public int getInt(int min, int max) {
+    public static int getInt(int min, int max) {
         System.out.println("enter a integer between" + min + " and" + max + ":");
         int userInput = this.scanner.nextInt();
         if (userInput <= min || userInput > max) {
